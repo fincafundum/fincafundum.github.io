@@ -166,6 +166,11 @@ i {
     background-size: cover;
 }
 
+.glyphicon.bigger {font-size: 70px;}
+
+/*
+* Paleta de colores
+*/
 .colorwheel1{
     background-color: #DBBD6A;
     color:#3D3D3A;
@@ -187,4 +192,12 @@ i {
     color:#3D3D3A;
 }
 
-.glyphicon.bigger {font-size: 70px;}
+/*
+* Imagenes fondo secciones
+
+
+#home{
+    background:url('../img/bg_finca_fundum.jpg') no-repeat center center;
+    background-size:100% auto;
+}
+*/
