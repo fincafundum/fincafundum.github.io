@@ -34,25 +34,6 @@
         padding: 0px
       }
     </style>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-    <script>
-		var map;
-		function initialize() {
-		  var mapOptions = {
-		    zoom: 12,
-		    draggable: false,
-		    disableDefaultUI: true,
-		    disableDoubleClickZoom: true,
-		    center: new google.maps.LatLng(-34.671747,-68.226617,13),
-		    mapTypeId: google.maps.MapTypeId.SATELLITE
-		  };
-		  map = new google.maps.Map(document.getElementById('map-canvas'),
-		      mapOptions);
-		}
-
-		google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
-
   </head>
 
   <body>
@@ -79,11 +60,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><b><img src="assets/img/logo.png" alt="Fundum"></b></a>
+          <a class="navbar-brand" href="#"><b><img style="max-width:280px; margin-top: -7px;" class="img-responsive" src="assets/img/logo.png" alt="Fundum"></b></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#donde">D&oacutende Estamos</a></li>
+            <li><a href="#materia">Materia Prima</a></li>
             <li><a href="#productos">Productos</a></li>
             <li><a href="#mision">Misi&oacuten</a></li>
             <li><a href="#nosotros">Nosotros</a></li>
@@ -98,9 +80,9 @@
 			<div class="row">
 				<br/><br/><br/>
 				<div class="col-lg-9">
-					<h1>Fundum - Productos de Finca.</h1> </br>
+<br/><br/>
 					<h4>Fundum es un proyecto que viene siendo soñado desde hace muchos años, y con un gran esfuerzo mediante se convirtió en una realidad conformada de pasión, creatividad y dedicación.</h4>
-					<h4>Casi 10.000 plantas de vid de las variedades Bonarda, Moscatel, Pedro Giménez y Criolla y más de 60 añosos olivos de la variedad Arauco, mezclan sus raíces en la árida tierra mendocina para sacar frutos sabrosos y abundantes que después cosechamos y convertimos en cosas ricas y nutritivas.</h4>
+					
 					<h4>La producción a pequeña escala de aceite de oliva extra virgen y sus derivados forma parte del paquete de productos que se elaboran en nuestra finca.</h4>
 					<div class="fb-like" data-href="http://fincafundum" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
 				</div><!-- /col-lg-6 -->
@@ -112,6 +94,7 @@
 			</div><!-- /row -->
 		</div><!-- /container -->
 	</div><!-- /headerwrap -->
+
 	<div id="donde" class="headerwrap colorwheel3">
 		<div class="container">
 			<div class="row mt centered">
@@ -129,13 +112,13 @@
 						</p>
 						<p><b>Clima de San Rafael</b>
 							</br>
-							Templado seco, de zona árida.
-							Temperatura media anual: 14,8 °C
-							Precipitación anual: 343 mm (octubre a marzo)</p>
+							Templado seco, de zona árida.</br>
+							Temperatura media anual: 14,8 °C</br>
+							Precipitación anual: 343 mm (octubre a marzo)</br></p>
 						<p>Sus temperaturas, intensidad de luz solar, poca nubosidad, sus vientos moderados en gran parte del año y el bajo porcentaje de humedad relativa, son factores que facilitan y permiten propiciamente el buen desarrollo de los cultivos de vides y olivos y la obtención de mayores rendimientos.</p>
 				</div><!-- /col-lg-6 -->
 				<div class="col-lg-5 col-lg-offset-1">
-					<div id="map-canvas"  style="width:450px; height: 400px; margin-left: auto; margin-right: auto"></div>
+				<img src="assets/img/mapa_fundum.jpg" class="img-responsive" alt="Mapa Finca Fundum">
 					</br>
 					
 				</div><!-- /col-lg-6 -->
@@ -144,19 +127,36 @@
 		</div><!-- /container -->
 	</div><!-- /headerwrap -->
 
+	<div id="materia" class="headerwrap colorwheel1">
+		<div class="container">
+		<div class="row mt centered">
+		<div class="col-lg-6 col-lg-offset-3">
+			<h1>Materia Prima</h1>
+		</div>
+		</div><!-- /row -->
+
+		<div class="row">	
+		<div class="col-lg-12">
+
+			<p>El aceite Fundum es un blend de la variedad “Arauco”, el Malbec de los aceites de oliva</p>
+			<p> Es de primera prensada en frío; esto quiere decir que el aceite es el que fue extraído de las aceitunas la primera vez que fueron prensadas por la almazara y no de sucesivas prensadas y se hizo bajo condiciones de temperatura inferiores a 24°C. </p>
+			<p>Así, fueron conservadas todas las propiedades organolépticas (color, olor, sabor) y nutricionales del mismo. Su acidez es menor a 0,8°. </p>
+			<p> La acidez de un aceite de oliva está dada por la cantidad de ácido oleico presente en la aceituna al momento de prensarse e indica, en forma indirecta, el estado de la aceituna al momento de ser cosechada. Una acidez baja representa una aceituna en estado óptimo y un procesamiento de la misma dentro de las 12 y 24hs posteriores a su recolección.
+			</p>
+			<p>Casi 10.000 plantas de vid de las variedades Bonarda, Moscatel, Pedro Giménez y Criolla y más de 60 añosos olivos de la variedad Arauco, mezclan sus raíces en la árida tierra mendocina para sacar frutos sabrosos y abundantes que después cosechamos y convertimos en cosas ricas y nutritivas.</p>
+		</div><!-- /col-lg-6 -->	
+		</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
+
+
 
 	<div id="productos" class="headerwrap colorwheel4">
 	<div class="container">
-			<div class="row mt centered">
-			<div class="col-lg-6 col-lg-offset-3">
-				<h1>Productos</h1>
-			</div>
-		</div><!-- /row -->
-		<div class="row">
-			<div class="col-lg-12">
-				<p>El aceite Fundum es un blend de la variedad “Arauco”, el Malbec de los aceites de oliva y es de primera prensada en frío; esto quiere decir que el aceite es el que fue extraído de las aceitunas la primera vez que fueron prensadas por la almazara y no de sucesivas prensadas y se hizo bajo condiciones de temperatura inferiores a 24°C. Así, fueron conservadas todas las propiedades organolépticas (color, olor, sabor) y nutricionales del mismo. Su acidez es menor a 0,8°. La acidez de un aceite de oliva está dada por la cantidad de ácido oleico presente en la aceituna al momento de prensarse e indica, en forma indirecta, el estado de la aceituna al momento de ser cosechada. Una acidez baja representa una aceituna en estado óptimo y un procesamiento de la misma dentro de las 12 y 24hs posteriores a su recolección.
-				</p>
-			</div>
+		<div class="row mt centered">
+		<div class="col-lg-6 col-lg-offset-3">
+			<h1>Productos</h1>
+		</div>
 		</div><!-- /row -->
 	
 		<! -- CAROUSEL -->
@@ -211,9 +211,10 @@
 				    </div>
 				  </div>
 				</div>
-
-				 </br><a href="#pedidos" class="btn btn-success btn-lg">Realiza tu pedido</a>
 			</div><!-- /col-lg-8 -->
+			<div class="col-lg-12">
+				</br><a href="#pedidos" class="btn btn-success btn-lg">Realiza tu pedido</a>
+			</div>
 		</div><!-- /row -->
 	</div><! --/container -->
 	</div><!-- /headerwrap -->
@@ -263,20 +264,20 @@
 	<div class="container">
 		<div class="row mt centered">
 			<div class="col-lg-6 col-lg-offset-3">
-				<h1>Nosotros.</h1>
+				<h1>Nosotros</h1>
 			</div>
 		</div><!-- /row -->
 		
 		<div class="row mt centered">
 			<div class="col-lg-4  col-lg-offset-2">
-				<img class="img-circle" src="assets/img/antonio.png" width="140" alt="">
+				<img class="img-circle" src="assets/img/hernan.jpg" width="140" alt="">
 				<h4>Hernán</h4>
 				<p>Ser humano, entrepreneur, apasionado de la naturaleza, fotógrafo aficionado y amante confeso del aceite de aceitunas, gestiona, administra y lleva a Fundum hacia su objetivo último, poner al alcance de todos los productos que la tierra provee y ser una empresa comprometida con el medio ambiente y la sociedad.</p>
-				<p><a href="tel:+5491131779500"> <i class="glyphicon glyphicon-phone"></i></a> <a href="https://ar.linkedin.com/in/hernanvillanueva"><i class="fa fa-linkedin-square"></i></a> <a href="mailto:contacto@fincafundum.com"><i class="glyphicon glyphicon-send"></i></a></p>
+				<p><a href="tel:+5491131779500"> <i class="glyphicon glyphicon-phone"></i></a> <a href="https://ar.linkedin.com/in/hernanvillanueva"><i class="fa fa-linkedin-square"></i></a> <a href="mailto:hernan@fincafundum.com"><i class="glyphicon glyphicon-send"></i></a></p>
 			</div><!--/col-lg-4 -->
 
 			<div class="col-lg-4">
-				<img class="img-circle" src="assets/img/antonio.png" width="140" alt="">
+				<img class="img-circle" src="assets/img/antonio.jpg" width="140" alt="">
 				<h4>Antonio</h4>
 				<p>Ser humano, trabajador, sabio, experimentado viñatero y olivicultor que cuida, mantiene y supervisa los trabajos y acciones sobre las vides y olivos de la finca. Nuestra mano derecha y amigo.</p>
 				<p></p>
@@ -290,125 +291,160 @@
 
 		<div class="row mt centered">
 			<div class="col-lg-6 col-lg-offset-3">
-				<h1>Formulario de Pedidos.</h1>
+				<h1>Pedidos</h1>
 			</div>
 		</div><!-- /row -->
 
 		<div class="row mt centered">
 			<div class="col-lg-6 col-lg-offset-3">
-<form class="form-horizontal" role="form">
-  <fieldset >
-  <legend  class="text-left">Datos de contacto:</legend>
-  <div class="form-group">
-    <label for="nombre" class="col-sm-5 control-label">Nombre</label>
-    <div class="col-sm-7">
-      <input type="text" class="form-control" id="nombre" placeholder="Ingrese su Nombre">
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="email" class="col-sm-5 control-label">Mail</label>
-    <div class="col-sm-7">
-      <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
-    </div>
-  </div>
+				<form class="form-horizontal" role="form" action="//forms.brace.io/ventas@fincafundum.com" method="POST">
+				  <fieldset >
+				  <legend  class="text-left">Datos de contacto:</legend>
+				  <div class="form-group">
+				    <label for="nombre" class="col-sm-5 control-label">Nombre</label>
+				    <div class="col-sm-7">
+				      <input type="text" class="form-control" id="nombre" placeholder="Ingrese su Nombre">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label for="email" class="col-sm-5 control-label">Email</label>
+				    <div class="col-sm-7">
+				      <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+				    </div>
+				  </div>
 
-    <div class="form-group">
-    <label for="telefono" class="col-sm-5 control-label">Teléfono</label>
-    <div class="col-sm-7">
-      <input type="text" class="form-control" id="direccion" placeholder="Ingrese su direccion de entrega">
-    </div>
-  </div>
-  </fieldset>
+				    <div class="form-group">
+				    <label for="telefono" class="col-sm-5 control-label">Teléfono</label>
+				    <div class="col-sm-7">
+				      <input type="text" class="form-control" id="direccion" placeholder="Ingrese su teléfono">
+				    </div>
+				  </div>
+				  </fieldset>
 
-  <fieldset>
-  <legend class="text-left">Dirección entrega:</legend>
-  <div class="form-group">
-    <label for="direccion" class="col-sm-5 control-label">Dirección</label>
-    <div class="col-sm-7">
-      <input type="text" class="form-control" id="direccion" placeholder="Ingrese su direccion de entrega">
-    </div>
-  </div>  
-    <div class="form-group">
-    <label for="ciudad" class="col-sm-5 control-label">Ciudad</label>
-    <div class="col-sm-7">
-      <input type="text" class="form-control" id="direccion" placeholder="Ingrese su direccion de entrega">
-    </div>
-  </div>  
-    <div class="form-group">
-    <label for="provincia" class="col-sm-5 control-label">Provincia</label>
-    <div class="col-sm-7">
-      <input type="text" class="form-control" id="direccion" placeholder="Ingrese su direccion de entrega">
-    </div>
-  </div>  
-  
-   </fieldset>
+				  <fieldset>
+				  <legend class="text-left">Dirección entrega</legend>
+				  <div class="form-group">
+				    <label for="direccion" class="col-sm-5 control-label">Dirección</label>
+				    <div class="col-sm-7">
+				      <input type="text" class="form-control" id="direccion" placeholder="Ingrese su direccion de entrega">
+				    </div>
+				  </div>  
+				    <div class="form-group">
+				    <label for="ciudad" class="col-sm-5 control-label">Ciudad</label>
+				    <div class="col-sm-7">
+				      <input type="text" class="form-control" id="direccion" placeholder="Ingrese su ciudad de entrega">
+				    </div>
+				  </div>  
+				    <div class="form-group">
+				    <label for="provincia" class="col-sm-5 control-label">Provincia</label>
+				    <div class="col-sm-7">
+				      <input type="text" class="form-control" id="direccion" placeholder="Ingrese su provincia de entrega">
+				    </div>
+				  </div>  
+				  
+				   </fieldset>
 
-  <fieldset>
-  <legend class="text-left">Productos:</legend>
-  <div class="form-group">
-  	<label for="botella_500ml" class="col-sm-5 control-label">Botella cuadrada 500ml</label>
-    <div class="col-sm-7">
-    <select id="botella_500ml" name="botella_500ml" class="form-control">
-      <option>Seleccionar Cantidad</option>
-      <option>1 - $60</option>
-      <option>2 - $120</option>
-    </select>
-   </div>
-   </div>
+				  <fieldset>
+				  <legend class="text-left">Productos</legend>
+				  <div class="form-group">
+				  	<label for="botella_500ml" class="col-sm-5 control-label">Botella 500ml</label>
+				    <div class="col-sm-7">
+				    <select id="botella_500ml" name="botella_500ml" class="form-control">
+				      	<option>Seleccionar Cantidad</option>
+						<option>  1	unidad - $50	</option>
+						<option>  2	unidades - $100	</option>
+						<option>  3	unidades - $150	</option>
+						<option>  4	unidades - $200	</option>
+						<option>  5	unidades - $225	- Ahorras $25</option>
+						<option>  6	unidades - $270	- Ahorras $30</option>
+						<option>  7	unidades - $315	- Ahorras $35</option>
+						<option>  8	unidades - $360	- Ahorras $40</option>
+						<option>  9	unidades - $405	- Ahorras $45</option>
+						<option> 10	unidades - $450	- Ahorras $50</option>
+				    </select>
+				   </div>
+				   </div>
 
-  <div class="form-group">
-  	<label for="botella_250ml" class="col-sm-5 control-label">Botella cuadrada 250ml</label>
-    <div class="col-sm-7">
-    <select id="botella_250ml" name="botella_250ml" class="form-control">
-      <option>Seleccionar Cantidad</option>
-      <option>1 - $30</option>
-      <option>2 - $60</option>
-    </select>
-   </div>
-   </div>
-    
-    <div class="form-group">
-  		<label for="jarrita_250ml" class="col-sm-5 control-label">Jarrita decorativa 250ml</label>
-    	<div class="col-sm-7">
-		    <select id="jarrita_250ml" name="jarrita_250ml" class="form-control">
-		      <option>Seleccionar Cantidad</option>
-		      <option>1 - $40</option>
-		      <option>2 - $80</option>
-		    </select>
-	   </div>
-	</div>
-    
-    <div class="form-group">
-  	<label for="bidon_5l" class="col-sm-5 control-label">Bidón cuadrado 5 lt</label>
-    <div class="col-sm-7">
-    <select id="bidon_5l" name="bidon_5l" class="form-control">
-      <option>Seleccionar Cantidad</option>
-      <option>1 - $60</option>
-      <option>2 - $120</option>
-    </select>
-   	</div>
-	</div>
+				  <div class="form-group">
+				  	<label for="botella_250ml" class="col-sm-5 control-label">Botella 250ml</label>
+				    <div class="col-sm-7">
+				    <select id="botella_250ml" name="botella_250ml" class="form-control">
+				      <option>Seleccionar Cantidad</option>
+<option> 1 - $30	</option>
+<option> 2 - $60	</option>
+<option> 3 - $90	</option>
+<option> 4 - $120	</option>
+<option> 5 - $135 - Ahorras $15</option>
+<option> 6 - $162 - Ahorras $18</option>
+<option> 7 - $189 - Ahorras $21</option>
+<option> 8 - $216 - Ahorras $24</option>
+<option> 9 - $243 - Ahorras $27</option>
+<option>10 - $270 - Ahorras $30</option>
+				    </select>
+				   </div>
+				   </div>
+				    
+				    <div class="form-group">
+				  		<label for="jarrita_250ml" class="col-sm-5 control-label">Jarrita decorativa 250ml</label>
+				    	<div class="col-sm-7">
+						    <select id="jarrita_250ml" name="jarrita_250ml" class="form-control">
+						      <option>Seleccionar Cantidad</option>
+<option> 1 - $40	</option>
+<option> 2 - $80	</option>
+<option> 3 - $120	</option>
+<option> 4 - $160	</option>
+<option> 5 - $180 - Ahorras $20</option>
+<option> 6 - $216 - Ahorras $24</option>
+<option> 7 - $252 - Ahorras $28</option>
+<option> 8 - $288 - Ahorras $32</option>
+<option> 9 - $324 - Ahorras $36</option>
+<option>10 - $360 - Ahorras $40</option>
+						    </select>
+					   </div>
+					</div>
+				    
+				    <div class="form-group">
+				  	<label for="bidon_5l" class="col-sm-5 control-label">Bidón cuadrado 5 lt</label>
+				    <div class="col-sm-7">
+				    <select id="bidon_5l" name="bidon_5l" class="form-control">
+				      <option>Seleccionar Cantidad</option>
+<option> 1 - $350	</option>
+<option> 2 - $700	</option>
+<option> 3 - $1050	</option>
+<option> 4 - $1400	</option>
+<option> 5 - $1575 - Ahorras $175</option>
+<option> 6 - $1890 - Ahorras $210</option>
+<option> 7 - $2205 - Ahorras $245</option>
+<option> 8 - $2520 - Ahorras $280</option>
+<option> 9 - $2835 - Ahorras $315</option>
+<option>10 - $3150 - Ahorras $350</option>
+				    </select>
+				   	</div>
+					</div>
 
-    <div class="form-group">
-  	<label for="forma_pago" class="col-sm-5 control-label">Forma de pago</label>
-    <div class="col-sm-7">
-    <select id="forma_pago" name="forma_pago" class="form-control">
-      <option>Seleccionar Forma de pago</option>
-      <option>Depósito</option>
-      <option>Transferencia</option>
-      <option>Contrarrembolso - Efectivo</option>
-    </select>
-   	</div>
-	</div>
-	</fieldset>
-  	
-	</br>
-  <div class="form-group">
-    <div class="text-left">
-      <button id="singlebutton" name="singlebutton" class="btn btn-success btn-lg">Realizar Pedido</button>
-    </div>
-  </div>
-</form>
+				    <div class="form-group">
+				  	<label for="forma_pago" class="col-sm-5 control-label">Forma de pago</label>
+				    <div class="col-sm-7">
+				    <select id="forma_pago" name="forma_pago" class="form-control">
+				      <option>Seleccionar Forma de pago</option>
+				      <option>Depósito</option>
+				      <option>Transferencia</option>
+				      <option>Contrarrembolso - Efectivo</option>
+				    </select>
+				   	</div>
+					</div>
+					</fieldset>
+				  	
+					</br>
+
+					<div class="col-sm-12">
+				  		<div class="form-group">
+				    		<div class="text-center">
+				    		<input type="hidden" name="_next" value="http://fincafundum.com/gracias.html" /><!-- callback de braceform -->
+				      		<button id="singlebutton" name="singlebutton" class="btn btn-success btn-lg">Realizar Pedido</button>
+				    	</div>
+				  	</div>
+				</form>
 			</div>
 		</div><!-- /row -->
 	</div><!-- /container -->
@@ -416,7 +452,7 @@
 
 	<div id="foot" class="footerwrap colorwheel5">
 	<div class="container">
-		<p class="centered">Fundum - 2014</p>
+		<p class="centered">Fundum &copy &reg - 2014</p>
 	</div><!-- /container -->
 	</div><!-- /headerwrap -->
 

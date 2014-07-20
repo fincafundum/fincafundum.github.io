@@ -78,16 +78,16 @@ a:after {
 }
 
 .navbar-default {
-	background-color: #323130;
+	background-color: white;
 	border-color: transparent;
 }
 
 .navbar-default .navbar-brand {
-	color: white;
+	color: #000;
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: white;
+    color: #000;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -135,6 +135,10 @@ i {
     background-size: cover;
 }
 
+.headerwrap h4{
+    color: white;
+    text-shadow: #444 0.1em 0.1em 0.2em;
+}
 .headerwrapfix h1{
 	margin-top: 35px;
 	margin-bottom: 15px;
@@ -152,7 +156,7 @@ i {
     padding-top:0px;
     background-attachment: relative;
     background-position: center center;
-    min-height: 150px;
+    min-height: 50px;
     width: 100%;
     
     -webkit-background-size: 100%;
@@ -179,9 +183,9 @@ i {
 }
 .colorwheel2{
     z-index:-999;
-    background:url('../img/fundum_tranquera.png') no-repeat center center;
+    background:url('../img/fundum_tranquera.jpg') no-repeat center center;
     background-size:auto auto;
-    min-height: 100%;
+    min-height: 550px;
     min-width: 100%;
     top: 0;
     left: 0;
