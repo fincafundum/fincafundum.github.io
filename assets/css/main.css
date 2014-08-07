@@ -208,12 +208,35 @@ i {
     background-color:#C4C4AA;
     color:#3D3D3A;
 }
-/*
-* Imagenes fondo secciones
+
+.recuadro
+{
+    background-color: white;
+    opacity: .50; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+    filter: alpha(opacity=50); /* IE lt 8 */
+    -ms-filter: "alpha(opacity=50)"; /* IE 8 */
+    -khtml-opacity: .50; /* Safari 1.x */
+    -moz-opacity: .50; /* FF lt 1.5, Netscape */
 
 
-#home{
-    background:url('../img/bg_finca_fundum.jpg') no-repeat center center;
-    background-size:100% auto;
+  -webkit-border-top-left-radius: 4px;
+  -webkit-border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+
+  -moz-border-radius-topleft: 4px;
+  -moz-border-radius-topright: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -moz-border-radius-bottomleft: 4px;
+
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+
+  padding: 25px;
+
 }
-*/
+
+
+
