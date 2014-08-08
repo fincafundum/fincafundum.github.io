@@ -1,23 +1,24 @@
 
 body {
     background-color:#C4C4AA;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    color: #555;
+    font-family: 'Droid+Sans', sans-serif;
 
+    color:white;
+
+    font-size: 20px;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-family: 'Lobster', cursive;
+
+
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 75px;
 }
 
 h3 {
@@ -25,7 +26,6 @@ h3 {
 }
 
 h4 {
-	font-weight: 400;
 	font-size: 20px;
 }
 
@@ -33,7 +33,9 @@ h4 {
 p {
     line-height: 28px;
     margin-bottom: 25px;
-    font-size: 16px;
+    font-size: 20px;
+        font-weight: 60;
+            text-shadow: #444 0.1em 0.1em 0.2em;
 }
 
 .centered {
@@ -175,35 +177,7 @@ i {
 /*
 * Paleta de colores
 */
-.colorwheel1{
-    background-color: #DBBD6A;
-    color:#3D3D3A;
 
-
-}
-.colorwheel2{
-    z-index:-999;
-    background:url('../img/fundum_tranquera.jpg') no-repeat center center;
-    background-size:auto auto;
-    min-height: 550px;
-    min-width: 100%;
-    top: 0;
-    left: 0;
-    background-color: #D9A93F;
-    color:#0C090A;
-}
-.colorwheel3{
-    background-color: #8F864E;
-    color:#3D3D3A;
-}
-.colorwheel4{
-    background-color: #ADA77F;
-    color:#3D3D3A;
-}
-.colorwheel5{
-    background-color: #C4C4AA;
-    color:#3D3D3A;
-}
 .colorwheelthanks{
     background-color:#C4C4AA;
     color:#3D3D3A;
@@ -212,11 +186,12 @@ i {
 .recuadro
 {
     background-color: white;
-    opacity: .50; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
-    filter: alpha(opacity=50); /* IE lt 8 */
-    -ms-filter: "alpha(opacity=50)"; /* IE 8 */
-    -khtml-opacity: .50; /* Safari 1.x */
-    -moz-opacity: .50; /* FF lt 1.5, Netscape */
+    color:#333;
+    opacity: .60; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+    filter: alpha(opacity=60); /* IE lt 8 */
+    -ms-filter: "alpha(opacity=60)"; /* IE 8 */
+    -khtml-opacity: .60; /* Safari 1.x */
+    -moz-opacity: .60; /* FF lt 1.5, Netscape */
 
 
   -webkit-border-top-left-radius: 4px;
@@ -237,6 +212,3 @@ i {
   padding: 25px;
 
 }
-
-
-
