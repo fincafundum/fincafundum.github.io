@@ -169,6 +169,7 @@ i {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-size:small;
 }
 
 .glyphicon.bigger {font-size: 70px;}
