@@ -1,7 +1,7 @@
 
 body {
     background-color:#C4C4AA;
-    font-family: 'Droid+Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 
     color:white;
 
@@ -13,7 +13,6 @@ body {
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lobster', cursive;
-
 
 }
 
@@ -187,11 +186,11 @@ i {
 {
     background-color: white;
     color:#333;
-    opacity: .60; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
-    filter: alpha(opacity=60); /* IE lt 8 */
-    -ms-filter: "alpha(opacity=60)"; /* IE 8 */
-    -khtml-opacity: .60; /* Safari 1.x */
-    -moz-opacity: .60; /* FF lt 1.5, Netscape */
+    opacity: .75; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+    filter: alpha(opacity=75); /* IE lt 8 */
+    -ms-filter: "alpha(opacity=75)"; /* IE 8 */
+    -khtml-opacity: .75; /* Safari 1.x */
+    -moz-opacity: .75; /* FF lt 1.5, Netscape */
 
 
   -webkit-border-top-left-radius: 4px;
@@ -210,12 +209,22 @@ i {
   border-bottom-left-radius: 4px;
 
   padding: 25px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.recuadro_lleno
+{
+
 
 }
 
+.recuadro h2{
+  font-family: 'Ubuntu', sans-serif !important;
+}
 
 .productImage img {
   width: auto;
   height: 660px!important;
   max-height: 660px!important;
+
 }
