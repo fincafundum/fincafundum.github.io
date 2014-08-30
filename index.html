@@ -62,9 +62,9 @@
                   email: true
                 },
                 telefono: {
-                  minlength: 6,
-                  required: true,
-                  digits: true
+                  required: false,
+                  digits: true,
+                  minlength: 6
                 },
                 direccion: {
                   required: true,
@@ -87,7 +87,9 @@
     			},
     			telefono:{
       				required: "Por favor ingresa tu telefono.",
-      				telefono: "El telefono solo debe contener numeros."
+      				telefono: "El telefono solo debe contener numeros.",
+      				minlength: "Ingresa el telefono completo.",
+      				digits: "El telefono solo debe contener numeros."
     			},
     			direccion: "Por favor ingresa la direccion.",
     			ciudad: "Por favor ingresa la ciudad.",
@@ -98,7 +100,8 @@
               },
               success: function(element) {
                 element
-                .text('OK!').addClass('valid')
+                //.text('OK!').addClass('valid')
+                .addClass('valid')
                 .closest('.form-group').removeClass('has-error').addClass('has-success');
               }
             });
