@@ -191,11 +191,11 @@ i {
 {
     background-color: white;
     color:#333;
-    opacity: .65; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
-    filter: alpha(opacity=65); /* IE lt 8 */
-    -ms-filter: "alpha(opacity=65)"; /* IE 8 */
-    -khtml-opacity: .65; /* Safari 1.x */
-    -moz-opacity: .65; /* FF lt 1.5, Netscape */
+    opacity: .45; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+    filter: alpha(opacity=45); /* IE lt 8 */
+    -ms-filter: "alpha(opacity=45)"; /* IE 8 */
+    -khtml-opacity: .45; /* Safari 1.x */
+    -moz-opacity: .45; /* FF lt 1.5, Netscape */
 
 
   -webkit-border-top-left-radius: 4px;
