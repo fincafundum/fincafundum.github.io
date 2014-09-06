@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -45,7 +45,7 @@
 <script type="text/javascript">
 
       $(document).ready(function() {
-        $('.carousel').carousel({interval: 10000});
+        $('.carousel').carousel({interval: 6000});
   $(".thumbnail").height(Math.max.apply(null, $(".thumbnail").map(function() { return $(this).height(); })));
       });
     </script>
@@ -55,55 +55,75 @@
       #home.carousel .item {
         position: fixed; 
         width: 100%; height: 100%;
-        -webkit-transition: opacity 1s;
-        -moz-transition: opacity 1s;
-        -ms-transition: opacity 1s;
-        -o-transition: opacity 1s;
-        transition: opacity 1s;
+        -webkit-transition: opacity 10s;
+        -moz-transition: opacity 10s;
+        -ms-transition: opacity 10s;
+        -o-transition: opacity 10s;
+        transition: opacity 10s;
 
-      }
-      #home.carousel .one {
-        background: url(assets/img/home5.jpg);
-        background-size: cover;
-        -moz-background-size: cover;
-      }
-      #home.carousel .two {
-        background: url(assets/img/home4.jpg);
-        background-size: cover;
-        -moz-background-size: cover;
-      }
-      #home.carousel .three {
-        background: url(assets/img/home1.jpg);
-        background-size: cover;
-        -moz-background-size: cover;
-      }
+}
       #home.carousel .zero {
         background: url(assets/img/fundum_tranquera.jpg);
         background-size: cover;
         -moz-background-size: cover;
       }
-            #home.carousel .cuatro {
-        background: url(assets/img/home6.jpg);
+      #home.carousel .one {
+        background: url(assets/img/home4.jpg);
         background-size: cover;
         -moz-background-size: cover;
       }
-            #home.carousel .cinco {
+      #home.carousel .two {
         background: url(assets/img/home7.jpg);
         background-size: cover;
         -moz-background-size: cover;
       }
-            #home.carousel .seis {
-        background: url(assets/img/home8.jpg);
+      #home.carousel .three {
+        background: url(assets/img/home12.jpg);
         background-size: cover;
         -moz-background-size: cover;
       }
-            #home.carousel .siete {
+      #home.carousel .cuatro {
+        background: url(assets/img/home10.jpg);
+        background-size: cover;
+        -moz-background-size: cover;
+      }
+      #home.carousel .cinco {
+        background: url(assets/img/home11.jpg);
+        background-size: cover;
+        -moz-background-size: cover;
+      }
+      #home.carousel .seis {
         background: url(assets/img/home9.jpg);
         background-size: cover;
         -moz-background-size: cover;
       }
-            #home.carousel .ocho {
-        background: url(assets/img/home10.jpg);
+      #home.carousel .siete {
+        background: url(assets/img/home3.jpg);
+        background-size: cover;
+        -moz-background-size: cover;
+      }
+      #home.carousel .ocho {
+        background: url(assets/img/home5.jpg);
+        background-size: cover;
+        -moz-background-size: cover;
+      }
+      #home.carousel .nueve {
+        background: url(assets/img/bonardaweb2.jpg);
+        background-size: cover;
+        -moz-background-size: cover;
+      }
+      #home.carousel .diez {
+        background: url(assets/img/home1.jpg);
+        background-size: cover;
+        -moz-background-size: cover;
+      }
+      #home.carousel .once {
+        background: url(assets/img/Parral2.jpg);
+        background-size: cover;
+        -moz-background-size: cover;
+      }
+      #home.carousel .doce {
+        background: url(assets/img/home8.jpg);
         background-size: cover;
         -moz-background-size: cover;
       }
@@ -127,7 +147,7 @@
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
       js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=733061133382055&version=v2.0";
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=354838184681069&version=v2.0";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
   </script>
@@ -141,7 +161,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://fincafundum.com/"><b><img style="max-width:280px; margin-top: -7px;" class="img-responsive" src="assets/img/logo.png" alt="Fundum"></b></a>
+          <a class="navbar-brand" href="http://fincafundum.com/"><b><img style="max-width:270px; margin-top: -7px;" class="img-responsive" src="assets/img/logo.png" alt="Fundum"></b></a>
         </div>
 
 
@@ -151,7 +171,7 @@
     <div id="home" class="carousel container slide">
       <!-- Carousel items -->
       <div class="carousel-inner">
-            <div class="active item zero"></div>
+      		<div class="active item zero"></div>
                 <div class="item one"></div>
                 <div class="item two"></div>
                 <div class="item three"></div>
@@ -160,6 +180,10 @@
                 <div class="item seis"></div>
                 <div class="item siete"></div>
                 <div class="item ocho"></div>
+                <div class="item nueve"></div>
+                <div class="item diez"></div>
+                <div class="item once"></div>
+                <div class="item doce"></div>
       </div>
     </div>
 
@@ -184,8 +208,8 @@
 <p>Volver a la <a href="http://fincafundum.com"> página principal </a></p>
 
           </div>
-          <div class="fb-like" data-href="http://fincafundum.com" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
-          <div class="fb-follow" data-href="https://www.facebook.com/fincafundum" data-colorscheme="light" data-layout="button" data-show-faces="false"></div>
+          <div class="fb-like" data-href="http://www.fincafundum.com" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
+	  <div class="fb-follow" data-href="https://www.facebook.com/fincafundum" data-colorscheme="light" data-layout="button" data-show-faces="false"></div>
         </div><!-- /col-lg-6 -->
         
       </div><!-- /row -->
@@ -197,7 +221,7 @@
   <div id="foot" class="footerwrap colorwheel5">
   <div class="container">
     </br>
-    <div class="centered">Fundum &copy &reg - 2014</div>
+    <div class="centered">Fundum&copy&reg - 2014</div>
   </div><!-- /container -->
   </div><!-- /headerwrap -->
 
