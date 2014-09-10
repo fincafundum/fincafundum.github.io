@@ -234,3 +234,9 @@ i {
   max-height: 660px!important;
 
 }
+
+/* Remove the awful background gradient */
+.carousel-control.right, .carousel-control.left
+{
+  background-image:none;
+}
