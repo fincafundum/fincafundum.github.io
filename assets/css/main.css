@@ -12,7 +12,8 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lobster', cursive;
+    /*font-family: 'Lobster', cursive;*/
+    font-family: 'Exo 2', sans-serif;
 
 }
 
