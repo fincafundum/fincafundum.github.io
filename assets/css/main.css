@@ -182,8 +182,7 @@ i {
     padding-top:0px;
     background-attachment: relative;
     background-position: center center;
-    min-height: 10px;
-    max-height: 25px;
+    min-height: 25px;
     width: 100%;
     
     -webkit-background-size: 50%;
