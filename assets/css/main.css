@@ -42,6 +42,16 @@ p {
     text-shadow: #444 0.1em 0.1em 0.2em;
 }
 
+z {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 8px;
+    font-weight: 60;
+    text-align: left;
+    text-shadow: #444 0.1em 0.1em 0.2em;
+}
+
+
 .centered {
     text-align: center;
 }
