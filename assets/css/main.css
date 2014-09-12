@@ -178,8 +178,8 @@ i {
 .footerwrap {
     /* background: url(../img/bg01.jpg) no-repeat center top; */
     background-color: #4B610B;
-    opacity: 0.5;
-    filter:Alpha(opacity=50);
+    opacity: 0.8;
+    filter:Alpha(opacity=80);
     margin-top: 0px;
     padding-top:0px;
     background-attachment: relative;
