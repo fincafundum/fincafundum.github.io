@@ -185,10 +185,10 @@ i {
     min-height: 25px;
     width: 100%;
     
-    -webkit-background-size: 50%;
-    -moz-background-size: 50%;
-    -o-background-size: 50%;
-    background-size: 50%;
+    -webkit-background-size: 10%;
+    -moz-background-size: 10%;
+    -o-background-size: 10%;
+    background-size: 10%;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
