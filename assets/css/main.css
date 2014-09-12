@@ -11,7 +11,7 @@ body {
 }
 
 /* Titles */
-h1, h2, h3, h4, h5, h6 {
+h1, /*h2*/, h3, h4, h5, h6 {
     /*font-family: 'Lobster', cursive;*/
     font-family: 'Exo 2', sans-serif;
     font-style: italic;
@@ -22,6 +22,13 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-size: 75px;
 }
+
+
+h2 {
+	font-family: 'Exo 2', sans-serif;
+	text-shadow: #444 0.1em 0.1em 0.2em;
+}
+
 
 h3 {
 	font-weight: 400;
