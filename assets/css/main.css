@@ -178,6 +178,7 @@ i {
 .footerwrap {
     /* background: url(../img/bg01.jpg) no-repeat center top; */
     background-color: #4B610B;
+    background-opacity: 20%;
     margin-top: 0px;
     padding-top:0px;
     background-attachment: relative;
@@ -189,11 +190,6 @@ i {
     -moz-background-size: 10%;
     -o-background-size: 10%;
     background-size: 10%;
-
-    -webkit-background-opacity: 20%;
-    -moz-background-opacity: 20%;
-    -o-background-opacity: 20%;
-    background-opacity: 20%;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
