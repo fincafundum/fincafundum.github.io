@@ -45,8 +45,10 @@
 <script type="text/javascript">
 
       $(document).ready(function() {
-        $('.carousel').carousel({interval: 6000});
-  $(".thumbnail").height(Math.max.apply(null, $(".thumbnail").map(function() { return $(this).height(); })));
+        	//carousel
+        	$('.carousel').carousel({interval: 6000});
+  			$('.carousel').carousel('next');
+  			$(".thumbnail").height(Math.max.apply(null, $(".thumbnail").map(function() { return $(this).height(); })));
       });
     </script>
 
@@ -216,8 +218,8 @@
 
 	</br></br></br></br></br></br></br>
 
-  <div id="foot" class="footerwrap colorwheel5">
-  <div class="container">
+	<div id="foot" class="footerwrap colorwheel5">
+	<div class="container">
     <!--/br-->
     <div class="centered"><f>Copyright &copy 2014 - Fundum&reg</f></div>
   </div><!-- /container -->
