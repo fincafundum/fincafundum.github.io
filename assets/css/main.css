@@ -120,14 +120,6 @@ a:after {
     
 }
 
-.navbar-nav > li > a {
-    float:none;
-    display:inline-block;
-    vertical-align: top;
-    text-align: center;
-
-}
-
 .navbar-collapse {
     float:none;
     display:inline-block;
@@ -139,7 +131,6 @@ a:after {
         display: block;
     }
 }
-
 
 .navbar-default .navbar-nav > li > a:hover {
     color: #AAA;
