@@ -121,7 +121,9 @@ a:after {
 }
 
 .navbar-nav > li > a {
-    position: absolute;
+    float:none;
+    display:inline-block;
+    vertical-align: top;
     text-align: center;
 
 }
