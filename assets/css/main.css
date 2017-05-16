@@ -103,14 +103,18 @@ a:after {
     padding: 0;
 }
 
-.navbar-nav {
-    width: 100%;
-    text-align: center;
-    > li {
-      float: none;
-      display: inline-block;
+.navbar .navbar-header,
+.navbar-collapse {
+    float:none;
+    display:inline-block;
+    vertical-align: top;
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse  {
+        display: block;
     }
-  }
+}
 
 
 .navbar-default {
