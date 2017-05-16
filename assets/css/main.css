@@ -117,19 +117,11 @@ a:after {
 
 .navbar-default .navbar-nav > li > a {
     color: #ff5c01;
-    position: absolute;
-    display: inline-block;
-    float: none;
-    vertical-align: center;
 
 }
 
 .navbar-default .navbar-nav > li > a:hover {
     color: #AAA;
-    position: absolute;
-    display: inline-block;
-    float: none;
-    vertical-align: center;
 	
 }
 
