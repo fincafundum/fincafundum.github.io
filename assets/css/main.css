@@ -106,6 +106,7 @@ a:after {
 .navbar-default {
 	background-color: #383934;
 	border-color: transparent;
+	float: none;
 }
 
 .navbar-default .navbar-brand {
