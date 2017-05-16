@@ -110,12 +110,6 @@ a:after {
     vertical-align: center;
 }
 
-@media (max-width: 768px) {
-    .navbar-collapse  {
-        display: block;
-    }
-}
-
 
 .navbar-default {
 	background-color: #383934;
