@@ -103,17 +103,6 @@ a:after {
     padding: 0;
 }
 
-@media (min-width: 768px) {
-    .navbar .navbar-nav {
-        display: inline-block;
-        float: none;
-        vertical-align: center;
-    }
-
-    .navbar .navbar-collapse {
-        text-align: center;
-    }
-}
 
 .navbar-default {
 	background-color: #383934;
@@ -128,6 +117,9 @@ a:after {
 
 .navbar-default .navbar-nav > li > a {
     color: #ff5c01;
+    display: inline-block;
+    float: none;
+    vertical-align: center;
 
 }
 
