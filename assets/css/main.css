@@ -110,7 +110,7 @@ a:after {
     vertical-align: top;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 270px) {
     .navbar-collapse  {
         display: inline-block;
     }
