@@ -120,18 +120,6 @@ a:after {
     
 }
 
-.navbar-collapse {
-    float:none;
-    display:inline-block;
-    vertical-align: bottom;
-}
-
-@media (max-width: 768px) {
-    .navbar-collapse  {
-        display: block;
-    }
-}
-
 .navbar-default .navbar-nav > li > a:hover {
     color: #AAA;
 	
