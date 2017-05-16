@@ -117,16 +117,14 @@ a:after {
 
 .navbar-default .navbar-nav > li > a {
     color: #ff5c01;
-    text-align: center;
-
+    
 }
 
 .navbar-nav > li > a {
-    color: #ff5c01;
+    position: absolute;
     text-align: center;
 
 }
-
 
 .navbar-default .navbar-nav > li > a:hover {
     color: #AAA;
