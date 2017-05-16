@@ -112,7 +112,7 @@ a:after {
 
 @media (max-width: 768px) {
     .navbar-collapse  {
-        display: block;
+        display: inline-block;
     }
 }
 
