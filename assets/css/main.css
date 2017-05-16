@@ -107,7 +107,7 @@ a:after {
     .navbar .navbar-nav {
         display: inline-block;
         float: none;
-        vertical-align: top;
+        vertical-align: center;
     }
 
     .navbar .navbar-collapse {
