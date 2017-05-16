@@ -112,15 +112,15 @@ a:after {
 
 .navbar-default .navbar-brand {
 	color: #F8F8F8;
-	float:none;
-        margin:0 auto;
-        display: inline-block;
-        text-align: center;
 	
 }
 
 .navbar-default .navbar-nav > li > a {
     color: #ff5c01;
+    float:none;
+    margin:0 auto;
+    display: inline-block;
+    text-align: center;
 
 }
 
