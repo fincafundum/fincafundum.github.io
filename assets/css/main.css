@@ -126,6 +126,10 @@ a:after {
     vertical-align:center;
 }
 
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
 /* Helpers */
 
 .mt {
