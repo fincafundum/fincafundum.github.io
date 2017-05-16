@@ -126,10 +126,6 @@ a:after {
 
 .navbar-default .navbar-nav > li > a:hover {
     color: #AAA;
-    position: absolute;
-    display: inline-block;
-    float: none;
-    vertical-align: center;
 	
 }
 
