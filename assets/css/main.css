@@ -110,6 +110,7 @@ a:after {
 
 .navbar-default .navbar-brand {
 	color: #F8F8F8;
+	position:center;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -119,6 +120,7 @@ a:after {
 
 .navbar-default .navbar-nav > li > a:hover {
     color: #AAA;
+    position:center;
 }
 
 /* Helpers */
