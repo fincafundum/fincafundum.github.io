@@ -103,17 +103,6 @@ a:after {
     padding: 0;
 }
 
-.navbar-nav {
-    float:none;
-    margin:0 auto;
-    display: inline-block;
-    text-align: center;
-}
-
-.navbar-nav > li {
-    display: inline-block;
-    float:none;
-}
 
 .navbar-default {
 	background-color: #383934;
@@ -123,6 +112,10 @@ a:after {
 
 .navbar-default .navbar-brand {
 	color: #F8F8F8;
+	float:none;
+        margin:0 auto;
+        display: inline-block;
+        text-align: center;
 	
 }
 
