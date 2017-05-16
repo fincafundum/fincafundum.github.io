@@ -103,7 +103,7 @@ a:after {
     padding: 0;
 }
 
-.navbar-collapse {
+.navbar .navbar-collapse {
     float:none;
     display:inline-block;
     vertical-align: top;
