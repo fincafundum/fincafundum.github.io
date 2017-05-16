@@ -107,10 +107,10 @@ a:after {
 .navbar-collapse {
     float:none;
     display:inline-block;
-    vertical-align: top;
+    vertical-align: center;
 }
 
-@media (max-width: 270px) {
+@media (max-width: 768px) {
     .navbar-collapse  {
         display: inline-block;
     }
