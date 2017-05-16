@@ -125,6 +125,9 @@ a:after {
 
 .navbar-default .navbar-nav > li > a:hover {
     color: #AAA;
+    display: inline-block;
+    float: none;
+    vertical-align: center;
 	
 }
 
