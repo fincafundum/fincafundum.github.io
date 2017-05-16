@@ -111,6 +111,7 @@ a:after {
 
 .navbar-default .navbar-brand {
 	color: #F8F8F8;
+	float: none;
 	vertical-align:center;
 }
 
