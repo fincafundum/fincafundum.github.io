@@ -117,8 +117,7 @@ a:after {
 .navbar-default {
 	background-color: #383934;
 	border-color: transparent;
-	float: none;
-	display: inline-block;
+
 }
 
 .navbar-default .navbar-brand {
@@ -128,13 +127,12 @@ a:after {
 
 .navbar-default .navbar-nav > li > a {
     color: #ff5c01;
-    float: none;
-    display: inline-block;
+
 }
 
 .navbar-default .navbar-nav > li > a:hover {
     color: #AAA;
-    vertical-align:center;
+	
 }
 
 /* Helpers */
