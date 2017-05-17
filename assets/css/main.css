@@ -105,14 +105,12 @@ a:after {
 
 
 .navbar-nav {
-	display: inline-block;
-        float: none;
+	float: none;
         vertical-align: center;
 }
 
 .navbar-right {
-	display: inline-block;
-        float: none;
+	float: none;
         vertical-align: center;
 }
 
