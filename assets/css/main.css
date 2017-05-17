@@ -103,6 +103,18 @@ a:after {
     padding: 0;
 }
 
+.navbar-toggle {
+	display: inline-block;
+        float: none;
+        vertical-align: center;
+}
+
+.navbar-nav {
+	display: inline-block;
+        float: none;
+        vertical-align: center;
+}
+
 
 .navbar-default {
 	background-color: #383934;
