@@ -103,19 +103,6 @@ a:after {
     padding: 0;
 }
 
-
-.navbar-nav {
-	float: none;
-        vertical-align: center;
-}
-
-.navbar-right {
-	float: none;
-        vertical-align: center;
-}
-
-
-
 .navbar-default {
 	background-color: #383934;
 	border-color: transparent;
@@ -135,6 +122,11 @@ a:after {
 .navbar-default .navbar-nav > li > a:hover {
     color: #AAA;
 	
+}
+
+.navbar-default .navbar-right {
+	float: none;
+        vertical-align: center;
 }
 
 /* Helpers */
