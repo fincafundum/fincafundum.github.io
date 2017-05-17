@@ -148,7 +148,7 @@ i {
 .headerwrap {
 	/* background: url(../img/bg01.jpg) no-repeat center top; */
 	/*background-color: #3498db;*/
-	position:top;
+	position:center;
 	margin-top: 0px;
 	padding-top:0px;
 	background-attachment: relative;
