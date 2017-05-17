@@ -110,6 +110,13 @@ a:after {
         vertical-align: center;
 }
 
+.navbar-right {
+	display: inline-block;
+        float: none;
+        vertical-align: center;
+}
+
+
 
 .navbar-default {
 	background-color: #383934;
