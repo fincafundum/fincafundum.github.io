@@ -116,6 +116,9 @@ a:after {
 
 .navbar-default .navbar-nav > li > a {
     color: #ff5c01;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;	
     
 }
 
