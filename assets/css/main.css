@@ -124,12 +124,18 @@ a:after {
 
 .navbar-default .navbar-nav > li > a:hover {
     color: #AAA;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
 	
 }
 
 .navbar-default .navbar-right {
-	float: none;
-        vertical-align: center;
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+
 }
 
 /* Helpers */
